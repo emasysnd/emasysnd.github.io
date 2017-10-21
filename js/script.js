@@ -8,19 +8,19 @@ $(document).ready(function() {
     });
 
     $('#favorite').bind('mouseenter click focus', function() {
-        $(this).removeClass('fa-heart-o').addClass('fa-heart animated bounceIn red fa-3x');
+        $(this).removeClass('fa-heart-o').addClass('fa-heart animated bounceIn flash red fa-3x');
     });
 
     $('#favorite').bind('mouseleave click focus', function() {
-        $(this).removeClass('fa-heart animated bounceIn red fa-3x').addClass('fa-heart-o');
+        $(this).removeClass('fa-heart animated bounceIn flash red fa-3x').addClass('fa-heart-o');
     });
 
     $('#like').bind('mouseenter click focus', function() {
-        $(this).removeClass('fa-thumbs-o-up').addClass('fa-thumbs-up animated bounceIn blue');
+        $(this).removeClass('fa-thumbs-o-up').addClass('fa-thumbs-up animated bounceIn flash blue');
     });
 
     $('#like').bind('mouseleave click focus', function() {
-        $(this).removeClass('fa-thumbs-up animated bounceIn blue').addClass('fa-thumbs-o-up');
+        $(this).removeClass('fa-thumbs-up animated bounceIn flash blue').addClass('fa-thumbs-o-up');
     });
 
     $('#dislike').bind('mouseenter click focus', function() {

@@ -285,9 +285,10 @@ footer {
     text-align: center !important;
 }
 
-.recipe-image {
+
+/* .recipe-image {
     max-height: 400px;
-}
+} */
 
 .red {
     color: #bd2130;
