@@ -290,6 +290,12 @@ footer {
     max-height: 400px;
 } */
 
+#favorite,
+#like,
+#dislike {
+    cursor: pointer;
+}
+
 .red {
     color: #bd2130;
 }
