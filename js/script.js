@@ -11,7 +11,7 @@ $(document).ready(function() {
         $(this).removeClass('fa-heart-o').addClass('fa-heart animated bounceIn flash red fa-3x');
     });
 
-    $('#favorite').bind('mouseleave', function() {
+    $('#favorite').on('mouseleave', function() {
         $(this).removeClass('fa-heart animated bounceIn flash red fa-3x').addClass('fa-heart-o');
     });
 
@@ -19,7 +19,7 @@ $(document).ready(function() {
         $(this).removeClass('fa-thumbs-o-up').addClass('fa-thumbs-up animated bounceIn flash blue');
     });
 
-    $('#like').bind('mouseleave', function() {
+    $('#like').on('mouseleave', function() {
         $(this).removeClass('fa-thumbs-up animated bounceIn flash blue').addClass('fa-thumbs-o-up');
     });
 
@@ -27,7 +27,7 @@ $(document).ready(function() {
         $(this).removeClass('fa-thumbs-o-down').addClass('fa-thumbs-down animated bounceIn blue');
     });
 
-    $('#dislike').bind('mouseleave', function() {
+    $('#dislike').on('mouseleave', function() {
         $(this).removeClass('fa-thumbs-down animated bounceIn blue').addClass('fa-thumbs-o-down');
     });
 

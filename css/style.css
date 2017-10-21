@@ -304,6 +304,11 @@ footer {
     color: #0062cc;
 }
 
+
+/* .reaction-snippet {
+    background: lightgray;
+} */
+
 @media screen and (max-width: 990px) {
     .card-columns {
         margin-top: 150px;
